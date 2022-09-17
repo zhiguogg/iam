@@ -11,7 +11,6 @@ require (
 	github.com/buger/jsonparser v1.1.1
 	github.com/cpuguy83/go-md2man/v2 v2.0.1
 	github.com/dgraph-io/ristretto v0.1.0
-	github.com/dgrijalva/jwt-go/v4 v4.0.0-preview1
 	github.com/fatih/color v1.13.0
 	github.com/ghodss/yaml v1.0.0
 	github.com/gin-contrib/cors v1.3.1
@@ -21,6 +20,7 @@ require (
 	github.com/go-redis/redis/v7 v7.4.1
 	github.com/go-redis/redis/v8 v8.11.4
 	github.com/go-redsync/redsync/v4 v4.4.2
+	github.com/golang-jwt/jwt/v4 v4.4.2
 	github.com/golang/mock v1.6.0
 	github.com/gosuri/uitable v0.0.4
 	github.com/influxdata/influxdb v1.9.4
@@ -50,13 +50,14 @@ require (
 	github.com/spf13/cobra v1.2.1
 	github.com/spf13/pflag v1.0.5
 	github.com/spf13/viper v1.9.0
-	github.com/stretchr/testify v1.7.0
+	github.com/stretchr/testify v1.7.1
 	github.com/tpkeeper/gin-dump v1.0.1
 	github.com/vinllen/mgo v0.0.0-20220329061231-e5ecea62f194
 	github.com/vmihailenco/msgpack/v5 v5.3.4
 	github.com/zsais/go-gin-prometheus v0.1.0
 	go.etcd.io/etcd/api/v3 v3.5.0
 	go.etcd.io/etcd/client/v3 v3.5.0
+	go.uber.org/automaxprocs v1.5.1
 	go.uber.org/zap v1.19.1
 	golang.org/x/sync v0.0.0-20210220032951-036812b2e83c
 	golang.org/x/text v0.3.7
